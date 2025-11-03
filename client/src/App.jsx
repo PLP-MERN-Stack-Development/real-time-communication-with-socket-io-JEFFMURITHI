@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Login from './pages/Login';
-import ChatRoom from './pages/ChatRoom';
-import SocketProvider from './socket/SocketProvider';
+import ChatRoom from './pages/chatRoom';
+import SocketProvider from './socket/socketProvider';
 
 export default function App() {
   const [user, setUser] = useState(() => {
